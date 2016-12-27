@@ -1,0 +1,89 @@
+@media (max-width:1200px){
+   
+}
+/* ipad portrait
+==========================================================================================*/
+@media (min-width:768px) and (max-width:1024px){
+    .logo{
+        width: 190px;
+        padding: 23px 10px;
+    }
+    .logo img{
+        width: 100px;
+    }
+    .my-account{
+        width: 190px;
+    }
+    .side-nav{
+        width: 190px;
+    }
+    .side-nav ul li{
+        padding: 10px;
+    }
+    .main .content-wrapper {
+        margin-left: 190px;
+        padding: 100px 20px 20px 20px;
+    }
+    .transaction-data{
+        padding: 20px 0;
+    }
+}
+/* iphone 5 Landscape
+==========================================================================================*/
+@media (max-width:767px){
+    .header,.logo{
+        height: 45px;
+    }
+    .header{
+        position: relative;
+    }
+    .my-account{
+        display: none;
+    }
+    .logo{
+        padding: 10px;
+        width: 100px;
+    }
+    .logo img{
+        width: 50px;
+    }
+    .side-nav{
+        position: absolute;
+        width: 100%;
+        padding: 45px 0 0 0;
+        height: auto;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .side-nav ul li{
+        padding: 10px;
+    }
+    .nav-trigger{
+        display: block;
+    }
+    .main .content-wrapper{
+        margin: 0;
+        padding: 80px 0 0 0;
+    }
+    .side-nav.nav-is-visible{
+        opacity: 1;
+        visibility: visible;
+    }
+    .table.custom-table > thead > tr > th, 
+    .table.custom-table > tbody > tr > th, 
+    .table.custom-table > tfoot > tr > th, 
+    .table.custom-table > thead > tr > td, 
+    .table.custom-table > tbody > tr > td, 
+    .table.custom-table > tfoot > tr > td{
+        padding: 15px 8px;
+    }
+    .transaction-data{
+        padding: 20px 0;
+    }
+}
+/* iphone 4 landscape
+==========================================================================================*/
+@media (max-width:480px){
+    
+}
+
